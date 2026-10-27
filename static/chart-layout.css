@@ -1,0 +1,12 @@
+.chart-grid {
+  grid-auto-rows: minmax(520px, auto);
+}
+
+.chart-card {
+  min-height: 520px;
+}
+
+.chart-card .plotly-graph-div {
+  height: 450px !important;
+  min-height: 450px;
+}
